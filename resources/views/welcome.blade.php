@@ -53,12 +53,12 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html" style="color: rgb(255, 255, 255)">Inicio</a></li>
-          <li><a href="single-post.html" style="color: rgb(255, 255, 255)">En vivo</a></li>
-          <li><a href="single-post.html" style="color: rgb(255, 255, 255)">Noticias</a></li>
+          <li><a href="index.html" style="color: rgb(0, 0, 0)">Inicio</a></li>
+          <li><a href="single-post.html" style="color: rgb(0, 0, 0)">En vivo</a></li>
+          <li><a href="single-post.html" style="color: rgb(0, 0, 0)">Noticias</a></li>
 
-          <li><a href="about.html" style="color: rgb(255, 255, 255)">About</a></li>
-          <li><a href="{{route('login')}}" style="color: rgb(255, 255, 255)">Iniciar Sesión</a></li>
+          <li><a href="about.html" style="color: rgb(0, 0, 0)">About</a></li>
+          <li><a href="{{route('login')}}" style="color: rgb(0, 0, 0)">Iniciar Sesión</a></li>
         </ul>
       </nav><!-- .navbar -->
 
