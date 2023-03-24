@@ -14,4 +14,14 @@ class HomeController extends Controller
         $carousel = SettingCarousel::where('deleted_at', null)->where('status',1)->get();
         return view('welcome', compact('carousel'));
     }
+
+    public function register()
+    {
+        return view('register');
+    }
+
+    public function storeRegister(Request $request)
+    {
+        return $request;
+    }
 }
